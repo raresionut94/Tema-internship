@@ -8,3 +8,9 @@ II.
 4. Am incercat sa refac construcția imaginii Docker utilizand comanda "docker build -t imagine_docker .", dar am primit o eroare care indica faptul ca fisierul Dockerfile nu a putut fi gasit.
 5. Incercarea de a utiliza comanda "docker build -t imagine_docker" a esuat, deoarece nu am furnizat un argument necesar pentru comanda.
 6. In cele din urma, am reusit sa construiesc o imagine Docker cu succes folosind comanda "docker build -t imagine_doker .".
+
+III.
+ -Am rulat comanda docker exec -it mysql-server mysql -uroot -p.
+ -Am verificat bazele de date existente;
+ -Am creat un tabel numit angajati cu coloanele id, employee_name, department și salary;
+ -Am introdus date in baza de date dupa care am calculat media de la departamentele hr si it.
